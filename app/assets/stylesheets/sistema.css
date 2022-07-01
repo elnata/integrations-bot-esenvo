@@ -1,0 +1,84 @@
+.login {
+    margin: 0px !important;
+    
+  }
+  .login100-more{
+    background-image: url('fundo/fundo.jpg');
+  }
+  .fundo{
+    background: #9124a3!important;
+  }
+
+  li p, .logo{
+    color: #ffffff !important;
+  }
+
+  @media (max-width: 767px) {
+    .table-wrap table,
+    .table-wrap thead,
+    .table-wrap tbody,
+    .table-wrap th,
+    .table-wrap td,
+    .table-wrap tr {
+      display: block;
+    }
+    .table-wrap thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    .table-wrap td {
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%!important;
+      white-space: normal;
+      text-align: left;
+    }
+    .table-wrap td:before {
+      position: absolute;
+      top: 8px;
+      left: 15px;
+      width: 45%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: left;
+      font-weight: bold;
+    }
+    .table-wrap td:first-child {
+      padding-top: 17px;
+    }
+    .table-wrap td:last-child {
+      padding-bottom: 16px;
+    }
+    .table-wrap td:first-child:before {
+      top: 17px;
+    }
+    .table-wrap td:before {
+      content: attr(data-title);
+    }
+    .table tbody tr {
+      border-top: 1px solid #ddd;
+    }
+    .table tbody tr td {
+      border: none;
+    }
+  }
+  
+
+  .table > thead > tr > td.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > tbody > tr > th.danger,
+.table > tfoot > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > tbody > tr.danger > td,
+.table > tfoot > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
